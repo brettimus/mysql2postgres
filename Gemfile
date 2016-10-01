@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rake', '~> 10.3'
 gem 'mysql-pr', '~> 2.9'
-gem 'postgres-pr', '~> 0.6'
+# gem 'postgres-pr', '~> 0.6'
 
 platforms :jruby do
   gem 'activerecord'

@@ -82,7 +82,7 @@ Gem::Specification.new do |s|
   ]
 
   s.add_dependency('mysql-pr', ['~> 2.9'])
-  s.add_dependency('postgres-pr', ['~> 0.6'])
+  # s.add_dependency('postgres-pr', ['~> 0.6'])
   s.add_dependency('test-unit', ['~> 2.1'])
 
   if RUBY_PLATFORM == 'java'
